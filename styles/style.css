@@ -13,7 +13,7 @@ body{
     font-weight: bolder;
 }
 .common_para{
-    font-size: 16px;
+    font-size: 12px;
 }
 .color1{
     color: #0D1321;
@@ -22,7 +22,7 @@ body{
     color: rgba(13, 19, 33, 0.7);
 }
 .common_line_height{
-    line-height: 26px;
+    line-height: 20px;
    margin-top: 16px;
 
 }
@@ -121,7 +121,7 @@ body{
 }
 .inspiration_heading{
     text-align: center;
-    width: 852px;
+    max-width: 852px;
     margin: 0 auto;
   
 }
@@ -133,4 +133,34 @@ body{
     margin-top: 48px;
     border-radius: 16px;
 }
-
+/* inspiration section end */
+/* current target section starts */
+.current_target{
+    max-width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+.current_target_heading{
+    text-align: center;
+    max-width: 946px;
+    margin: 0 auto;
+}
+.current_target_content{
+    display: flex;
+    justify-content: space-between;
+    height: 299px;
+    margin-top: 48px;
+}
+.targets{
+    max-width: 364px;
+    border-radius: 16px;
+}
+.targets_elements{
+    padding: 40px;
+}
+.target_para_height{
+    height: 52px;
+    
+    margin-bottom: 24px;
+}
