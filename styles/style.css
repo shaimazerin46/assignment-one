@@ -164,3 +164,53 @@ body{
     
     margin-bottom: 24px;
 }
+/* current target section end */
+/* support section starts */
+.support_section{
+    max-width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    border-radius: 16px;
+}
+.support_content_heading{
+    max-width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+.support_input{
+    display: flex;
+    margin: 0 auto;
+    gap: 16px;
+    width: 684px;
+}
+.input_section >input{
+    margin: 0 auto;
+    height: 57px;
+    width: 548px;
+    border-radius: 8px;
+    border: none;
+}
+.support_btn{
+   padding: 17px 25px;
+    border-radius: 8px;
+    border: none;
+}
+.input_section input::placeholder{
+    padding: 20px;
+    color: #d0cdca;
+    font-size: 16px;
+}
+/* support section end */
