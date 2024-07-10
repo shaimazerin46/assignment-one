@@ -34,6 +34,11 @@ body{
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
     margin-top: 32px;
+    cursor: pointer;
+}
+.common_button a{
+    text-decoration: none;
+    color: rgba(13, 19, 33, 0.7);
 }
 .common_margin_bottom{
     margin-bottom: 32px;
@@ -62,9 +67,13 @@ body{
     border-radius: 8px;
     border: none;
     margin-top: 32px;
+    cursor: pointer;
    
 }
-
+.btn >a{
+    text-decoration: none;
+    color: white;
+}
 /* header section end */
 
 /* web development starts */
@@ -214,3 +223,34 @@ body{
     font-size: 16px;
 }
 /* support section end */
+
+/* footer starts */
+footer{
+    background-color: #fff6f4;
+}
+.foot_content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 32px 150px;
+}
+.foot_text >p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 38px;
+}
+.foot_icon ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 150px;
+    padding-top: 38px;
+    
+}
+.foot_icon ul>li>a>i{
+    font-size: 30px;
+    color: black;
+}
